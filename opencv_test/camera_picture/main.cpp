@@ -34,7 +34,7 @@ int main()
         }
         if (key == 's')
         {
-            sprintf(picture_name, "pic%d.jpg", i++);//若保存在根目录,这样即可
+            sprintf(picture_name, "pic%d.jpg", i++);
             imwrite(picture_name, frame);
             imshow(picwindow_name, frame);
         }
